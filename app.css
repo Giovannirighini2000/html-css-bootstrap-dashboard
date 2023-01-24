@@ -115,6 +115,28 @@ a{
 .text-color-white{
     color: white;
 }
+.section-main-blu{
+  background-color: #1b72e8; 
+}
+.text-bg-primary{
+    background-color: #165bba!important;
+}
+.badge{
+    --bs-badge-font-size: 0.65em;
+}
+.gap-badge{
+    gap: 5px;
+}
+.fa-angles-right:before {
+    font-size: 12px;
+}
+.pad-section-blu{
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.h2-boolean{
+    font-size: 1.5rem;
+}
 /* MEDIA QUERY */
 @media (min-width: 576px) { 
 
