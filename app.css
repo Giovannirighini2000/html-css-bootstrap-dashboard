@@ -207,7 +207,9 @@ a{
     font-size: 12px;
 }
 /* FORM CARD MAIN */
-
+.pad-topcard{
+    padding-top: 24px;
+}
 /* MEDIA QUERY */
 @media (min-width: 576px) {   
   }
