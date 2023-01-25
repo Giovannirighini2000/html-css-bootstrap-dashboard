@@ -36,7 +36,7 @@
                             </form>
                         </nav>
                         <nav class="col-auto d-flex nav-bottoni-gutter">
-                            <button class="col-auto border-button">
+                            <button class="col-auto border-button media-version">
                                 <i class="fa-solid fa-list"></i>
                             </button>
                             <button class="col-auto border-button media-version">
@@ -45,9 +45,16 @@
                             <button class="col-auto border-button media-version">
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </button>
-                            <button class="col-auto border-button media-version">
-                                <i class="fa-solid fa-bell"></i>
-                            </button>
+                            <div class="btn-group">
+                                <button type="button" class="col-auto border-button drop-bell" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="fa-solid fa-bell"></i>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                  <li><button class="dropdown-item" type="button">Profilo</button></li>
+                                  <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                                  <li><button class="dropdown-item" type="button">Logout</button></li>
+                                </ul>
+                            </div>
 
                         </nav>
                         
@@ -67,22 +74,22 @@
                    
                     <div class="d-flex topside gap-icon">
                         <a href="#" class="logosize"><i class="fa-solid fa-house"></i></a>
-                        <a href="#">Home</a>
+                        <a class="none-disp" href="#">Home</a>
                     </div>
                     <div class="d-flex gap-icon">
                         <a href="#" class="logosize pad-center-logo"><i class="fa-solid fa-chart-simple"></i></a>
-                        <a href="#">Stats</a>
+                        <a class="none-disp" href="#">Stats</a>
                     </div>
                     <div class="d-flex gap-icon">
                         <a href="#" class="logosize"><i class="fa-solid fa-signal"></i></a>
-                        <a href="#">Signals</a>
+                        <a class="none-disp" href="#">Signals</a>
                     </div>
                                          
                   
                     <div class="margin-top-button">
                         <div class="d-flex margin-top-button">
                         <a href="#"><i class="fa-solid fa-gear"></i></a>
-                        <a href="#">Admin</a>
+                        <a class="none-disp" href="#">Admin</a>
 
                         </div>
                     </div>

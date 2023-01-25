@@ -62,6 +62,11 @@ a{
     display: none;
 
 }
+.drop-bell{
+    color: #ff8f00;
+
+}
+
 
 /* SIDE BAR */
 .container-side-bar-app{
@@ -139,6 +144,16 @@ a{
 }
 /* MEDIA QUERY */
 @media (min-width: 576px) { 
+    .none-disp{
+        display: none;
+
+    }
+    .container-side-bar-app{
+        flex-basis: 68px;
+    }
+    .main-content{
+        flex-basis: calc(100% - 68px);
+    }
 
   }
 
@@ -152,6 +167,16 @@ a{
     }
     .img-desk{
         display: block;
+    }
+    .none-disp{
+        display: block;
+
+    }
+    .container-side-bar-app{
+        flex-basis: 151px;
+    }
+    .main-content{
+        flex-basis: calc(100% - 151px);
     }
  }
 
