@@ -215,6 +215,10 @@ a{
     padding-top: 1.0rem;
     padding-bottom: 1.0rem;
 }
+.card-link{
+    color:#1b72e8;
+    text-decoration: underline;
+}
 /* MEDIA QUERY */
 @media (min-width: 576px) {   
   }
