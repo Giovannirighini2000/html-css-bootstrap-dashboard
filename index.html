@@ -101,7 +101,7 @@
                 <div class="main-content">
                     <div class="container-fluid section-main-blu">
                         <div class="row pad-section-blu justify-content-between">
-                            <div class="col-auto  d-flex">
+                            <div class="col-12 col-md-auto col-lg-auto  d-flex">
                                 <div class="low-pad">
                                     <div class="d-flex col-6 gap-badge align-items-center">
                                         
@@ -149,7 +149,7 @@
                                
 
                             </div>
-                            <div class="col-auto">
+                            <div class="col-12 col-md-auto col-lg-auto">
                                 
                                 <div class="text-color-white">
                                     <div>
@@ -170,7 +170,7 @@
 
 
                             </div>
-                            <div class="col-auto order-element-bunner-blu text-color-white">
+                            <div class="col-12 col-md-auto col-lg-auto order-element-bunner-blu text-color-white">
                                 <div class="">
                                     <div class="d-flex gutter-badge">
                                         <div>
@@ -179,13 +179,122 @@
                                             </a>
                                         </div>
                                         <div class="border-plus">
-                                            <a href="#" class="pad-border-plus">
-                                                <i class="fa-solid fa-plus"></i>
-                                                
+                                          <div class="col-auto">
 
-                                            </a>
+                                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                    
+                                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 
-                                            
+                                                    <div class="offcanvas-header">
+
+                                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                                                    </div>
+
+                                                    <div class="offcanvas-body">
+
+                                                        <div class="row canvas-row-gap canvas-text-style">
+
+                                                        <div class="col-6 offpadconvas">
+
+                                                                <label for="formGroupExampleInput" class="form-label">Nome</label>
+                                                                <input type="text" class="form-control" aria-label="First name">
+
+                                                        </div>
+
+                                                            <div class="col-6 offpadconvas">
+
+                                                                <label for="formGroupExampleInput" class="form-label">Cognome</label>
+                                                                <input type="text" class="form-control" aria-label="First name">
+
+                                                            </div>
+
+                                                        <div class="col-6 offpadconvas">
+                                                        
+                                                                <label for="formGroupExampleInput" class="form-label">Email</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-text">@</div>
+                                                                    <input type="text" class="form-control" id="autoSizingInputGroup">
+                                                                </div>
+                                                        
+                                                            </div>
+
+                                                            <div class="col-6 offpadconvas">
+                                                            
+                                                                <label for="formGroupExampleInput" class="form-label">Password</label>
+                                                                <input type="text" class="form-control" aria-label="First name">
+                                                            
+                                                            </div>
+
+                                                            <div class="col-12 offpadconvas">
+                                                            
+                                                                <label for="formGroupExampleInput" class="form-label">Indirizzo</label>
+                                                                <input type="text" class="form-control" aria-label="First name">
+                                                            
+                                                            </div>
+
+                                                            <div class="col-6 offpadconvas">
+                                                            
+                                                                <label for="formGroupExampleInput" class="form-label">Citt&aacute;</label>
+                                                                <input type="text" class="form-control" aria-label="First name">
+                                                            
+                                                            </div>
+
+                                                            <div class="col-4 offpadconvas">
+                                                            
+                                                                <label for="formGroupExampleInput" class="form-label">Stato</label>
+                                                                <select id="inputState" class="form-select">
+                                                                    <option selected>Scegli...</option>
+                                                                    <option>Italia</option>
+                                                                    <option>Germania</option>
+                                                                    <option>Andorra</option>
+                                                                    <option>Germania</option>
+                                                                    <option>Albania</option>
+                                                                    <option>kossovo</option>
+                                                                    <option>Africa</option>
+                                                                </select>
+                                                            
+                                                            </div>
+
+                                                            <div class="col-2 offpadconvas">
+                                                            
+                                                                <label for="formGroupExampleInput" class="form-label">CAP</label>
+                                                                <input type="text" class="form-control" aria-label="First name">
+                                                            
+                                                            </div>
+
+                                                            <div class="col-12 offpadconvas">
+                                                            
+                                                                <label for="formGroupExampleInput" class="form-label">Foto</label>
+                                                                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                                                            
+                                                            </div>
+
+                                                            <div class="col-12 offpadconvas">
+
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Seleziona per proseguire
+                                                                    </label>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-12 offpadconvas">
+
+                                                                <button type="button" class="btn btn-primary">Salva</button>
+                                                                <button type="button" class="btn btn-warning">Svuota</button>
+
+                                                        
+                                                            </div>
+                                                        </div>     
+                                                                
+                                                  </div>                     
+                                              </div>
+                                          </div>  
+
                                         </div>
 
                                     </div>
