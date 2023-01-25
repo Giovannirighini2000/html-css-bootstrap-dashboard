@@ -123,7 +123,6 @@ a{
 .main-content{
     flex-basis: calc(100% - 151px);
     flex-grow: 1;
-    background-color: #141922;
     overflow-y: auto;
     
 
@@ -203,6 +202,13 @@ a{
 .offpadconvas{
     padding-top: 8px;
 }
+.pad-section-blu {
+    gap: 20px;
+}
+.plus-budge-none{
+    display: block;
+    font-size: 12px;
+}
 /* MEDIA QUERY */
 @media (min-width: 576px) {   
   }
@@ -233,11 +239,17 @@ a{
     .order-element-bunner-blu{
         order: 1;
     }
+    .pad-section-blu {
+        gap: 0px;
+    }
  }
 
 @media (min-width: 992px) { 
     .budge-none{
         display: block;
+    }
+    .plus-budge-none{
+        display: none;
     }
 
  }
