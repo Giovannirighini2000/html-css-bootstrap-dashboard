@@ -219,6 +219,26 @@ a{
     color:#1b72e8;
     text-decoration: underline;
 }
+.gap-iconcard{
+    gap: 10px;
+}
+.border-action{
+    border:1px solid grey;
+    border-radius: 4px;
+    background-color: white;
+    color: grey;
+}
+.pad-action-cube{
+    padding: 4px 4px 4px 4px;
+}
+.circle-back-ground{
+    padding: 5px 3px 3px 3px;
+    background-color: #f26551;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid #f26551;
+}
+
 /* MEDIA QUERY */
 @media (min-width: 576px) {   
   }
