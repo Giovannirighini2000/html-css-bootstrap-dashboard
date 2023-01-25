@@ -125,6 +125,7 @@ a{
     flex-grow: 1;
     overflow-y: auto; 
     background-color: #f8f9fa;
+    height: 100vh;
 }
 .section-dashboard{
     height: 100vh;
