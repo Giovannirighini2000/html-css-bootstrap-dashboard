@@ -124,6 +124,7 @@ a{
     flex-basis: calc(100% - 151px);
     flex-grow: 1;
     overflow-y: auto; 
+    background-color: #f8f9fa;
 }
 .section-dashboard{
     height: 100vh;
@@ -209,6 +210,10 @@ a{
 /* FORM CARD MAIN */
 .pad-topcard{
     padding-top: 24px;
+}
+.back-ground-card-graphic{
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
 }
 /* MEDIA QUERY */
 @media (min-width: 576px) {   
