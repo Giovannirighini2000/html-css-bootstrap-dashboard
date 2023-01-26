@@ -74,6 +74,8 @@ a{
     font-size: 12px;
     padding: 4px 6px;
 }
+
+    
 /* SIDE BAR */
 .container-side-bar-app{
     flex-basis: 151px;
@@ -84,7 +86,6 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #051e34;
-    height: calc(100vh - 56px);
     gap: 25px;
 }
 .margin-top-button{
@@ -94,7 +95,11 @@ a{
 }
 .container-bootstrap{
     display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+
 }
+
 .topside{
  padding-top: 34px;
 }
@@ -123,12 +128,13 @@ a{
 .main-content{
     flex-basis: calc(100% - 151px);
     flex-grow: 1;
-    overflow-y: auto; 
+    overflow: auto; 
     background-color: #f8f9fa;
     height: 100vh;
 }
 .section-dashboard{
     height: 100vh;
+    overflow: hidden;
 }
 
 .text-color-white{
@@ -239,10 +245,21 @@ a{
     border-radius: 50%;
     border: 1px solid #f26551;
 }
+.gap-card-columun{
+    gap: 25px;
+    flex-direction: column;
+}
+/* .vers-mobile{ */
+ /* display: none; */
+/* } */
+    
 
 /* MEDIA QUERY */
 @media (min-width: 576px) {   
-  }
+    /* .vers-mobile{ */
+        display: block;
+       }
+  /* } */
 @media (min-width: 768px) {
     .media-version{
         display: block;
@@ -273,7 +290,11 @@ a{
     .pad-section-blu {
         gap: 0px;
     }
- }
+    .gap-card-columun{
+        
+        flex-direction: row;
+    }
+}
 
 @media (min-width: 992px) { 
     .budge-none{
